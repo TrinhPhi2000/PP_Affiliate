@@ -1,0 +1,223 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+ol, ul {
+    list-style: none;
+}
+body {
+    background-color: #E9E9E9;
+}
+
+
+/*style header*/
+#header {
+    border: 2px solid #000;
+    display: flex;
+    height: 64px;
+    align-items: center;
+    padding-left: 30px;
+    background-color: #fff;
+    
+}
+#header .container__logo {
+    margin-right: 10px;
+}
+#header .button__tag {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 2px 4px;
+    background: #376FFF;
+    text-transform: uppercase;
+}
+
+.container__img {
+    width: 100%;
+    height: 100%;
+}
+.container__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*end style header*/
+
+
+/* Style form login*/
+#section__login {
+    padding: 0 30px 40px 30px;
+    margin-top: 50px;
+   
+}
+#section__login .container__img {
+    border: 2px solid #000;
+    background-color: #fff;
+}
+#section__login .container__form {
+    border: 2px solid #000;
+    background-color: #fff;
+    height: 100%;
+    padding: 40px 80px 0;
+}
+#section__login .container__form .form-label {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+}
+#section__login .container__form .form-control::placeholder {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+}
+#section__login .container__form .form-control {
+    border: 2px solid rgb(114, 109, 109);
+}
+#section__login .container__form .form-control:focus {
+    box-shadow: none;
+    border: 2px solid #000;
+}
+#section__login .container__form .form-check .form-check-label {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000;
+
+}
+#section__login .container__form .form-check .form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+#section__login .container__form .form-check .form-check-input:focus {
+    box-shadow: none;
+}
+#section__login .container__form .form-check .form-check-policy {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+}
+#section__login .container__form  .text-center {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+#section__login .container__form .form-check-radio {
+    margin-bottom: 20px;
+}
+#section__login .container__form .form-check-checkbox {
+    margin-bottom: 20px;
+}
+#section__login .container__form  .text-body {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #000;
+}
+#section__login .container__form .small  {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+}
+#section__login .container__form .link-danger {
+    font-family: 'DM Sans';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+}
+#section__login  .container__form-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+#section__login .container__form .btn__login {
+    width: 100%;
+    background-color: #000;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFF;
+    border: 1px solid transparent;
+    transition: all 0.4s;
+}
+#section__login .container__form .btn__login:focus {
+    box-shadow: none;
+}
+
+#section__login .container__form .btn__login:hover {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+.password-container {
+    position: relative;
+}
+.password-container #icon__eye {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+/* End Style form login*/
+
+
+
+/* style form error*/
+#section__login .container__form .form-outline.error small {
+    color: red;
+}
+
+#section__login .container__form .form-outline.error .form-control {
+    border: 2px solid red;
+}
+#section__login .container__form .form-check.error small {
+    color: red;
+}
+
+#section__login .message-error {
+    display: none;
+}
+
+#section__login .message-error.show {
+    display: block;
+    color: red;
+}
+#section__login .checked-error {
+    display: none;
+}
+
+#section__login .checked-error.show {
+    display: block;
+    color: red;
+}
+
